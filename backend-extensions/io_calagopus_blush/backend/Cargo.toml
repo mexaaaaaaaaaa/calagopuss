@@ -1,0 +1,12 @@
+[package]
+name = "io_calagopus_blush"
+version = "0.2.0"
+edition = { workspace = true }
+authors = ["Petalnodes"]
+description = "Petalnodes baby-pink custom theme extension package for Calagopus Panel."
+license = "MIT"
+
+[dependencies]
+shared = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
